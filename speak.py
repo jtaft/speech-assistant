@@ -17,8 +17,8 @@ def pausefun():
 def onWord(name, location, length):
   print(f"word: {name}, {location}, {length}")
   #engine.stop()
-  engine.pause()
-  pausefun()
+  #engine.pause()
+  #pausefun()
   #_ = input("stuff:")
   #engine.resume()
 
@@ -38,7 +38,7 @@ def say(val):
 
 #say("Hello Jay, what can I do for you?")
 #
-say("I'm here, what can I do for you?")
+#say("I'm here, what can I do for you?")
 #say("Are you talking to me?")
 #
 #say("Did I hear my name?")
